@@ -53,9 +53,7 @@ void main()
         Update();
 
     } while (isRunning);
-
-    printf("\n\n\tCongratulations! You win. Press any key to close game...");
-    _getch();
+    Shutdown();
 }
 
 void Render()
